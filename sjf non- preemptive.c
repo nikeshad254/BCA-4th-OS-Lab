@@ -7,7 +7,7 @@
 	
 	bt for each processes: 8 5 4 10
 	
-	expected outcome: Average WT: 10.25 || Average TAT: 18.75
+	expected outcome: Average WT: 7.5 || Average TAT: 14.25
 */
 
 #include<stdio.h>

@@ -43,7 +43,7 @@ void main() {
 		}
 		if(temp[i]==0 && count==1) {
 			y--; //decrement the process no.
-			printf("\nProcess No[%d] \t\t %d\t\t\t %d\t\t %d", i+1, bt[i], sum-at[i], sum-at[i]-bt[i]);
+			printf("\nProcess No[%d] \t\t %d\t\t %d\t\t %d", i+1, bt[i], sum-at[i], sum-at[i]-bt[i]);
 			wt = wt+sum-at[i]-bt[i];
 			tat = tat+sum-at[i];
 			count =0;
