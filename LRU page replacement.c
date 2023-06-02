@@ -25,6 +25,8 @@ int findLRU(int time[], int n) {
 int main() {
     int no_of_frames, no_of_pages, frames[10], pages[30], counter = 0, time[10], flag1, flag2, i, j, pos, faults = 0;
 
+	printf("---------- LRU Page Replacement -----------\n\n");
+	
     printf("Enter number of frames: ");
     scanf("%d", &no_of_frames);
 

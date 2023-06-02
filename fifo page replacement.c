@@ -29,6 +29,8 @@ void replacePage(int page, int frames[], int numFrames, int *pointer, int *pageF
 int main() {
 	int maxFrames, numPages, i;
 	
+	printf("---------- FIFO Page Replacement -----------\n\n");
+	
 	printf(" number of pages: ");
 	scanf("%d", &numPages);
 	

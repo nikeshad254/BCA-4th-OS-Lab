@@ -12,6 +12,8 @@ Enter page reference string: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7
 int main() {
     int numFrames, numPages, frames[10], pages[30], temp[10];
     int flag1, flag2, flag3, i, j, k, pos, max, faults = 0;
+    
+    printf("---------- Optimal Page Replacement -----------\n\n");
 
     printf("Enter number of frames: ");
     scanf("%d", &numFrames);
