@@ -49,6 +49,8 @@ void worstFit(int blockSize[], int m, int processSize[], int n) {
 int main() {
     int m, n;
 
+	printf("/n--------------- Worst Fit ------------ /n");
+	
     printf("Enter the number of blocks: ");
     scanf("%d", &m);
 
