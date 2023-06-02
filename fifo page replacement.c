@@ -1,3 +1,13 @@
+/*
+
+testing data::---
+
+ number of pages: 10
+ enter sequence of pages: 4 7 6 1 7 6 1 2 7 2
+ give max frame: 3
+
+*/
+
 #include <stdio.h>
 
 // Function to find if a page exists in memory
